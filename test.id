@@ -1,0 +1,13 @@
+# this is a comment
+
+println("Hello World!");
+
+println(2 + 3 * 4);
+
+# functions are introduced with `lambda` or `λ`
+
+# fib = lambda (a, b)
+
+# println(fib(15));
+
+printrange(1, 5);
