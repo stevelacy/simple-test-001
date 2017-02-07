@@ -1,7 +1,7 @@
 const fs = require('fs')
 const read = require('./read')
 const tokenizer = require('./tokenizer')
-const parser = require('./parsser')
+const parser = require('./parser')
 
 const file = fs.readFileSync('./test.id', 'utf8')
 const sourceInput = read(file)
